@@ -23,7 +23,8 @@ import java.util.Random;
 
 
 @SpringBootApplication
-@EnableFeignClients(basePackages = "com.atif.billingservice.feign")
+//@EnableFeignClients(basePackages = "com.atif.billingservice.feign")
+@EnableFeignClients
 public class BillingServiceApplication {
 
     public static void main(String[] args) {
